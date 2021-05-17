@@ -1,0 +1,300 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu,
+    roboto, noto, segoe ui, arial, sans-serif;
+  background: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+.mtb-100{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.webEcom-bg-overlay{
+    position: relative;
+    z-index: 0;
+}
+.webEcom-bg-overlay::before{
+    position: absolute;
+    content: "";
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 88%;
+    z-index: -1;
+}
+.webEcom-bg img{
+  width: 100%;
+  height: 500px;
+  position: relative;
+  opacity: .6;    
+}
+.webEcom-bg h1{
+    position: relative;
+    color: #ffffff;
+    font-size: 65px;
+    font-family: fantasy;
+    bottom: 90px;
+    left: 10px;
+  }
+.webEcom-heding-text{
+    position: relative;
+    font-size: 30px;
+    color: #ffffff;
+}
+.page-heading {
+    color: #000000;
+    font-size: 55px;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+ .webEcom-outer{
+   
+}
+ .webEcom-outer h1{
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 17px;
+    font-family: 'Poppins';
+}
+.webEcom-inner{
+    text-align: center;
+    width: auto;
+    height:auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px #919191b0;
+    margin: 20px;
+    border-radius: 5px;
+}
+.webEcom-inner h1{
+    text-align: center;
+    background-color: #ff5e00;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 900;
+    bottom: 50px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    color: aliceblue;
+    margin-top: 0px;
+    position: relative;
+}
+.webEcom-inner h2{
+    font-size: 20px;
+    font-family: 'Poppins';
+    color: #000000;
+    font-weight: bold;
+    margin: -15px 30px;
+    text-align: left;
+    padding-bottom: 45px;
+}
+ .webEcom-inner p{
+    text-align: left;
+    margin-left: 30px;
+    padding-bottom: 27px;
+}
+.webEcom-creative-img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    padding: 0px 20px;
+}
+.creative_part_text{
+    padding-left: 60px;
+}
+.creative_part_text h2{
+    font-size: 46px;
+    line-height: 55px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.creative_part_text span{
+    font-size: 24px;
+    line-height: 40px;
+    color: #000;
+    margin-top: 26px;
+    display: block;
+}
+.cta_part{
+    position: relative;
+    z-index: 1;
+    background:url(/images/contact-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 70px 0px;
+    margin-top: 20px;
+}
+ .cta_iner{
+    position: relative;
+    z-index: 1;
+    background-color: #38373780;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    text-align: center;
+    padding: 60px 0px;
+}
+.cta_iner h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+    line-height: 68px;
+}
+.cta_iner .btn_1{
+    margin-top: 45px;
+}
+.btn_1{
+    display: inline-block;
+    padding: 27px 70px;
+    background-color: #00d089;
+    font-size: 14px;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    line-height: 15px;
+}
+@media only screen and (max-width: 1290px) {
+   
+}
+@media only screen and (max-width: 1100px) {
+    .page-heading {
+        color: #000000;
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    
+}
+@media only screen and (max-width: 900px) {
+    
+}
+@media only screen and (max-width: 800px) {
+    
+}
+@media only screen and (max-width: 700px) {
+   
+}
+@media only screen and (max-width: 650px) {
+    .page-heading {
+        color: #000000;
+        font-size: 45px;
+    }
+    .webEcom-bg h1 {
+        font-size: 50px;
+    }
+    .webEcom-inner p {
+        margin-left: 20px;
+    }
+    .webEcom-inner h2 {
+        margin: -15px 20px;
+    }
+    .creative_part_text h2 {
+        font-size: 40px;
+    }
+    .creative_part_text {
+        padding-left: 17px;
+    }
+    .cta_iner h1 {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 570px) {
+   
+}
+@media only screen and (max-width: 400px) {
+    .page-heading {
+        color: #000000;
+        font-size: 40px;
+    }
+    .webEcom-bg-overlay::before {
+        height: 92%;
+    }
+    .webEcom-bg h1 {
+        font-size: 35px;
+    }
+    .webEcom-inner h1 {
+        text-align: center;
+        background-color: #ff5e00;
+        border-radius: 50%;
+        font-size: 22px;
+        font-weight: 900;
+        bottom: 30px;
+        width: 65px;
+        height: 65px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 19px;
+        color: aliceblue;
+        margin-top: -15px;
+        position: relative;
+}
+.webEcom-inner {
+    margin: 5px;
+}
+.webEcom-creative-img {
+    width: 100%;
+    height: 350px;
+    margin: 30px 0px;
+}
+.creative_part_text h2 {
+    font-size: 30px;
+    font-family: fantasy;
+    margin-left: 24px;
+    line-height: 40px;
+}
+.creative_part_text p {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.creative_part_text span {
+    font-size: 20px;
+    line-height: 35px;
+    color: #000;
+    margin-top: 26px;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.cta_part {
+    padding: 49px 0px;
+    margin-top: -200px;
+}
+.cta_iner h1 {
+    font-size: 25px;
+    line-height: 40px;
+}
+}

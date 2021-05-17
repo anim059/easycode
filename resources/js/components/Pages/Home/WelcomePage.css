@@ -1,0 +1,113 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+.splash{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  top: 40%;
+}
+.splash h3{
+  color: rgb(0, 0, 0);
+  font-size: 6em;
+  font-weight: 900;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  letter-spacing: 3.5px;
+  font-family: monospace;
+}
+.splash p{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.splash span{
+  color:  rgb(255, 94, 0);
+}
+.splash h3::before{
+  position: absolute;
+  content: '';
+  left: 110%;
+  height: 110%;
+  width: 120%;
+  background:linear-gradient(90deg,transparent 0%,rgb(255, 255, 255) 5%,rgb(255, 255, 255) 100%);
+  animation: animate 3.5s linear forwards;
+}
+@keyframes animate
+{
+  0%{
+    left: 0%;
+  }
+  100%{
+    left: 110%;
+  }
+}
+.splash h3 span{
+  color: rgb(255, 94, 0);
+  font-size: 1.5em;
+  letter-spacing: 15px;
+}
+@media only screen and (max-width: 500px) {
+  .splash h3{
+    font-size: 2em;
+  }
+  .splash h3 span{
+    font-size: 2em;
+  }
+}
+
+
+/* splash screen 
+.splash{
+  position: fixed;
+  top:0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('/images/splash-screen.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.splash img{
+  height: 100px;
+  width: 300px;
+  z-index: 9;
+ 
+}
+.splash .splash-card{
+  animation-name: open;
+  animation-fill-mode: forwards;
+  animation-duration: .5s;
+  animation-delay: 1s;
+}
+
+@keyframes open{
+  0%{
+    transform: translateY(800px,0px)
+}
+100%{
+    transform: translateX(0px,1000px);
+}
+}
+.welcome-sniper{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*/

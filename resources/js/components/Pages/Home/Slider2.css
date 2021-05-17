@@ -1,0 +1,47 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.inner-root {
+  display: flex;
+}
+
+.rootrowfirst {
+  width: 100px;
+  height: 300px;
+  background: black;
+  margin: 5px;
+  animation: updownanimation1 2s ease infinite alternate;
+}
+@keyframes updownanimation1{
+  from{
+   transform: translateY(-5px);
+  }
+  to{
+    transform: translateY(55px);
+  }
+}
+
+.rootrowsecond:hover {
+  background: hotpink;
+}
+.rootrowsecond {
+  width: 100px;
+  height: 300px;
+  background: black;
+  margin: 5px;
+  animation: updownanimation2 2s ease infinite alternate;
+}
+@keyframes updownanimation2{
+  from{
+   transform: translateY(55px);
+  }
+  to{
+    transform: translateY(-5px);
+  }
+}
+
+.rootrowsecond:hover {
+  background: hotpink;
+}
+
