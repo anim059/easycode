@@ -49,7 +49,7 @@ function Home() {
 
           {/*splash &&<WelcomePage/>*/}  
           {!splash && <EasyNavbar visible={visible} />}
-          {!splash &&<ImageSlide/>}  
+         
           {!splash && <ProductService/> }  
           {!splash &&<ClientArea/>}
           {!splash &&<Counterup/>}
