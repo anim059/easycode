@@ -102,14 +102,15 @@ function R_possoft() {
                 <h1 className="top-heading">Demo of R-POS Software</h1>
                     <Slider {...settings}>
 
-                        <img variant="top" src="/images/R-pos-image1.jpeg" className="feature-img"/>
+                        <img variant="top" src="/images/Rpos-image1.png" className="feature-img"/>
                         <img variant="top" src="/images/R-pos-image2.png" className="feature-img"/>
                         <img variant="top" src="/images/R-pos-image3.png" className="feature-img"/>
                         <img variant="top" src="/images/R-pos-image4.png" className="feature-img"/>
-                        <img variant="top" src="/images/R-pos-image1.jpeg" className="feature-img"/>
-                        <img variant="top" src="/images/R-pos-image2.png" className="feature-img"/>
-                        <img variant="top" src="/images/R-pos-image3.png" className="feature-img"/>
-                        <img variant="top" src="/images/R-pos-image4.png" className="feature-img"/>
+                        <img variant="top" src="/images/R-pos-image5.png" className="feature-img"/>
+                        <img variant="top" src="/images/R-pos-image6.png" className="feature-img"/>
+                        <img variant="top" src="/images/R-pos-image7.png" className="feature-img"/>
+                        <img variant="top" src="/images/R-pos-image8.png" className="feature-img"/>
+                        <img variant="top" src="/images/R-pos-image9.png" className="feature-img"/>
 
 
                     </Slider>

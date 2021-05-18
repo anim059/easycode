@@ -590,7 +590,7 @@ body {
 }
 .scroll-container .indicator .scroll-to-top{
   position: fixed;
-  left: 45%;
+  left: 49%;
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -655,6 +655,11 @@ body {
 }
 .home_product_sctn_heading h1::before {
   width: 16%;
+}
+.scroll-container .indicator .scroll-to-top {
+  position: fixed;
+  left: 49%;
+  width: 45px;
 }
 }
 @media only screen and (max-width: 900px) {
@@ -724,6 +729,11 @@ body {
   display: flex;
   margin-left: 110px;
   margin-right: 110px;
+}
+.scroll-container .indicator .scroll-to-top {
+  position: fixed;
+  left: 46%;
+  width: 45px;
 }
 }
 @media only screen and (max-width: 700px) {

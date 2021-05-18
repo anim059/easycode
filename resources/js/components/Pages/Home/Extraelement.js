@@ -19,6 +19,7 @@ function Extraelement({ classname }) {
                 <MessengerCustomerChat 
                     pageId="101737155217146"
                     appId="1076996009431698"
+                    color="<orange | white>"
                 />
             </div>
 

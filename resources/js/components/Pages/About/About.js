@@ -93,40 +93,40 @@ function About() {
                             <div className="col-lg-12 heading-section fadeInUp">
                                 <span className="heading-title">EasyCode</span>
                                 <h1 className="heading-text">Welcome to EasyCode Software Company</h1>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                <p>EasyCose Software  is a leading Company with high quality and areas of Information Technology</p>
                                 <div className="service-wrap">
                                     <div className="service-list">
-                                        <h1>Gutter cleaning</h1>
+                                        <h1>Development & Design superior Software, web and other solution</h1>
                                         <div className="btn-custom d-flex align-item-center justify-content-center">
                                             <span><BsArrowRightShort /></span>
                                         </div>
                                     </div>
                                     <div className="service-list">
-                                        <h1>Gutter cleaning</h1>
+                                        <h1>Expert company in providing services globally</h1>
                                         <div className="btn-custom d-flex align-item-center justify-content-center">
                                             <span><BsArrowRightShort /></span>
                                         </div>
                                     </div>
                                     <div className="service-list">
-                                        <h1>Gutter cleaning</h1>
+                                        <h1>Having a strong Technology Development and Innovative team</h1>
                                         <div className="btn-custom d-flex align-item-center justify-content-center">
                                             <span><BsArrowRightShort /></span>
                                         </div>
                                     </div>
                                     <div className="service-list">
-                                        <h1>Gutter cleaning</h1>
+                                        <h1>Highly skilled intellectual personnel</h1>
                                         <div className="btn-custom d-flex align-item-center justify-content-center">
                                             <span><BsArrowRightShort /></span>
                                         </div>
                                     </div>
                                     <div className="service-list">
-                                        <h1>Gutter cleaning</h1>
+                                        <h1>Most having substantial work experience in diverse areas of Information Technology</h1>
                                         <div className="btn-custom d-flex align-item-center justify-content-center">
                                             <span><BsArrowRightShort /></span>
                                         </div>
                                     </div>
                                     <div className="service-list">
-                                        <h1>Gutter cleaning</h1>
+                                        <h1>We gives first priority to our clients</h1>
                                         <div className="btn-custom d-flex align-item-center justify-content-center">
                                             <span><BsArrowRightShort /></span>
                                         </div>
