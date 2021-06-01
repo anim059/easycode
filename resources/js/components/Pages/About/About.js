@@ -147,9 +147,10 @@ function About() {
                     <Card className="team-slider-width">
                             <Card.Img variant="top" src="/images/member1.jpg" className="team-member-image"/>
                             <Card.Body>
-                                <Card.Title>Team Member </Card.Title>
+                                <Card.Title className="team-member-Name">Md. Mokbul Hossain </Card.Title>
+                                <Card.Title className="team-member-dgn">Software Program and  Developer </Card.Title>
                                 <Card.Text className="team-member-qoute">
-                                    We Help you Improve Productivity
+                                    Leading the new Digital World
                                </Card.Text>
                                 
                             </Card.Body>
@@ -159,13 +160,26 @@ function About() {
                     <Card className="team-slider-width">
                             <Card.Img variant="top" src="/images/member2.jpg" className="team-member-image"/>
                             <Card.Body>
-                                <Card.Title>Team Member </Card.Title>
+                                <Card.Title className="team-member-Name">Syed Masud Rana </Card.Title>
+                                <Card.Title className="team-member-dgn">Head of HR and Admin </Card.Title>
+                                <Card.Text className="team-member-qoute">
+                                     Providing the simplest solution for the most complex problem
+                               </Card.Text>
+                               
+                            </Card.Body>
+                        </Card>
+
+                        <Card className="team-slider-width">
+                            <Card.Img variant="top" src="/images/member3.jpg" className="team-member-image"/>
+                            <Card.Body>
+                                <Card.Title className="team-member-Name">Risad Hossain Khan </Card.Title>
+                                <Card.Title className="team-member-dgn">Web designer and Developer </Card.Title>
                                 <Card.Text className="team-member-qoute">
                                     We Help you Improve Productivity
                                </Card.Text>
                                
                             </Card.Body>
-                        </Card>
+                        </Card>   
                  
                       
                 </Slider>

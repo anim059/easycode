@@ -17,6 +17,7 @@ import SchoolManage from './Pages/Software/SchoolManage'
 import ProjectManagement from './Pages/Software/ProjectManagement'
 import DigitalMarket from './Pages/Service/DigitalMarket'
 import WebsiteEcom from './Pages/Service/WebsiteEcom'
+import SimpleReactLightbox from 'simple-react-lightbox'
 
 
 
@@ -33,7 +34,9 @@ function App() {
              <Contact/>
           </Route>
           <Route  path="/rpos">
-             <R_possoft/>
+             <SimpleReactLightbox>
+                <R_possoft/> 
+             </SimpleReactLightbox>
           </Route>
           <Route  path="/retailPos">
              <Retail_pos/>

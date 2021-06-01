@@ -7,6 +7,7 @@ import { ListGroup, Card } from 'react-bootstrap'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { SRLWrapper } from "simple-react-lightbox";
 function R_possoft() {
     var settings = {
         dots: false,
@@ -46,6 +47,35 @@ function R_possoft() {
 
     };
 
+    const options = {
+        settings: {
+            autoplaySpeed: 3000,
+            boxShadow: 'none',
+            disableKeyboardControls: true,
+            disablePanzoom: true,
+            disableWheelControls: true,
+            hideControlsAfter: 3000,
+            lightboxTransitionSpeed: 0.3,
+            lightboxTransitionTimingFunction: 'linear',
+            overlayColor: 'rgba(30, 30, 30, 0.9)',
+            slideAnimationType: 'fade',
+            slideSpringValues: [300, 50],
+            slideTransitionSpeed: 0.6,
+            slideTransitionTimingFunction: 'linear',
+            usingPreact: false
+          },
+        buttons: {
+          backgroundColor: "#ff7300 ",
+          iconColor: "#ffffff",
+        },
+        caption: {
+          captionColor: "#ff7300 ",
+          captionFontFamily: "Raleway, sans-serif",
+          captionFontWeight: "300",
+          captionTextTransform: "uppercase",
+        }
+      };
+
     const { y: pageYoffset } = useWindowScroll();
     const [visible, setVisible] = useState("shownav");
     const [scrollbutton, setScrollbutton] = useState("nonvisible");
@@ -67,6 +97,21 @@ function R_possoft() {
     }, [pageYoffset]);
     console.log(pageYoffset);
     console.log(visible);
+
+    const images = [
+        {
+        imagename : "/images/Rpos-image1.png",
+        imagename : "/images/R-pos-image2.png",
+        imagename : "/images/R-pos-image3.png",
+        imagename : "/images/R-pos-image4.png",
+        imagename : "/images/R-pos-image5.png",
+        imagename : "/images/R-pos-image6.png",
+        imagename : "/images/R-pos-image7.png",
+        imagename : "/images/R-pos-image8.png",
+        imagename : "/images/R-pos-image9.png",
+        }
+    ];
+
     return (
        
         <>
@@ -83,6 +128,7 @@ function R_possoft() {
                     <div className="col-lg-6 col-md-6 col-sm-12 center-item">
                        
                         <ul class="list-group list-group-flush">
+                           
                             <li class="list-group-item Rpos-text">Easy To Use</li>
                             <li class="list-group-item Rpos-text">User Friendly Design</li>
                             <li class="list-group-item Rpos-text">Having Many Features</li>
@@ -100,8 +146,9 @@ function R_possoft() {
             
             <div className="container mb-5">
                 <h1 className="top-heading">Demo of R-POS Software</h1>
+                <SRLWrapper options={options}>
                     <Slider {...settings}>
-
+                        
                         <img variant="top" src="/images/Rpos-image1.png" className="feature-img"/>
                         <img variant="top" src="/images/R-pos-image2.png" className="feature-img"/>
                         <img variant="top" src="/images/R-pos-image3.png" className="feature-img"/>
@@ -114,6 +161,7 @@ function R_possoft() {
 
 
                     </Slider>
+                </SRLWrapper>
             </div>
             <BottomFooter/>
         </>

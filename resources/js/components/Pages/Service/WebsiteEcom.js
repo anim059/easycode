@@ -29,7 +29,7 @@ function WebsiteEcom() {
         <>
            { <EasyNavbar visible={visible} />}
             <div className="container-fluid webEcom-bg webEcom-bg-overlay">
-                <img src="/images/services.jpeg" className="" />
+                <img src="/images/services1.jpg" className="" />
                 <h1>Website & Ecommerce</h1>
             </div>    
                 <div className="container-fluid">
@@ -39,27 +39,31 @@ function WebsiteEcom() {
                            <div className="webEcom-inner">
                             <h1>1</h1>
                             <h2>Responsive in Multi-device</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            <p>Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge,
+                                 a website, to make it look good on all devices (desktops, tablets, and phones):</p>
                             <h2>Many Type Website Design</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            <p>Design is the process of collecting ideas and these ideas implementing them. We also involve website 
+                                layout, website structure, user interface, navigation, colors, font, image gallery, button styles etc</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12   mt-5">
                            <div className="webEcom-inner">   
                             <h1>2</h1>
                             <h2>Payment Gateway</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            <p>А payment gateway is the technology that captures and transfers payment data from the customer to the acquire</p>
                             <h2>Api Intregation</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            <p>the process of creating a means for two or more APIs to share data and communicate with each other without 
+                                human interruption</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12  mt-5">
                             <div className="webEcom-inner">
                             <h1>3</h1>
                             <h2>Quick And On-time project</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            <p>Give our best to make our client happy with quick and on-time project handover  </p>
                             <h2>Domain And Hosting</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            <p>Web hosting and domain hosting, though closely related, are two different services. 
+                                Web hosts allow users to create and store content, like a website, on Internet servers</p>
                             
                             </div>
                         </div>

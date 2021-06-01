@@ -30,7 +30,7 @@ function DigitalMarket() {
         <>
              { <EasyNavbar visible={visible} />}
             <div className="container-fluid webEcom-bg webEcom-bg-overlay">
-                <img src="/images/services.jpeg" className="" />
+                <img src="/images/services2.jpg" className="" />
                 <h1>Digital Market</h1>
             </div>    
                 <div className="container-fluid">
@@ -40,27 +40,32 @@ function DigitalMarket() {
                            <div className="webEcom-inner">
                             <h1>1</h1>
                             <h2>Keyword Research and Reporting</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            <p>Keyword research is the process of 
+                                understanding the language your target customers use when searching for your products, services, and content</p>
                             <h2> Digital Marketing Consultancy</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            <p>Digital marketing consultancy is all about helping businesses and brands to achieve their goals online.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12   mt-5">
                            <div className="webEcom-inner">   
                             <h1>2</h1>
                             <h2>Social Media Advertising</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            <p>Social media marketing is the use
+                                 of social media platforms to connect with your audience to build your brand, increase sales, and drive website traffic</p>
                             <h2>SEO Intregation</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            <p>To achieve long-lasting, quality results, SEO needs to be integrated into your overall 
+                                marketing strategy. SEO is vital to the first stage of RACE - reach</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12  mt-5">
                             <div className="webEcom-inner">
                             <h1>3</h1>
                             <h2>Graphic Design Assistance</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            <p>As a graphic design assistant, it is your job to help the 
+                                lead graphic designer complete all print, online, and electronic media projects</p>
                             <h2>Blog Link Assistene</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            <p>Blogs also promote reader engagement. Readers have a chance to comment 
+                                and voice their different concerns and thoughts to the community</p>
                             
                             </div>
                         </div>
